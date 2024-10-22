@@ -1,0 +1,155 @@
+body{
+    background-color: #fcf5e8;
+}
+
+hr {
+    border: 0px solid #D6D6D6; 
+    border-top-width: 1px;
+}
+
+@font-face {
+    font-family: outfit;
+    src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: young-serif;
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+#recipe-container{
+    width: 25%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#image-omelette{
+    width: 100%;
+    height: 25%;
+}
+
+#recipe-title{
+    font-family: young-serif;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: left;
+}
+
+#recipe-description{
+    font-family: outfit;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+}
+
+#preparation-time{
+    padding: 10px;
+    height: 20%;
+    background-color: rgb(250, 243, 250);
+    border-radius: 15px;
+}
+
+#preparation-time h4{
+    font-family: outfit;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(125, 0, 125);
+}
+
+#preparation-time li{
+    font-family: outfit;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 10px;
+}
+
+h3{
+    font-family: young-serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 10px;
+    color: rgb(139, 69, 0);
+}
+
+#ingredients li{
+    font-family: outfit;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 1em;
+} 
+
+#ingredients ul{
+    padding-left: 20px;
+}
+
+#instructions li{
+    font-family: outfit;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+#instructions ol{
+    padding-left: 20px;
+}
+
+#nutrition p{
+    font-family: outfit;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: left;
+}
+
+#calorie-table{
+    margin: auto;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+#calorie-table tr.bottom-border{
+    border-bottom: 1px solid #D6D6D6;
+}
+
+#calorie-table td{
+    font-family: outfit;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 10px;
+}
+
+#calorie-table td.brown-text {
+    color: rgb(139, 69, 0);
+}
+
+@media only screen and (max-width: 1024px) {
+    /* For tablets mobile phones: */
+    body {
+        background-color: white;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #recipe-container{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        border-radius: 0px;
+    }
+
+    #content{
+        padding: 5%;
+        padding-top: 0px;
+    }
+}
